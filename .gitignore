@@ -17,3 +17,6 @@
 # editor
 .idea/
 .vscode/
+
+# binary
+main
