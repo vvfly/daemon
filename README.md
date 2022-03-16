@@ -8,5 +8,24 @@
     go get github.com/vvfly/daemon
 
 ## Usage
-    See example for details
-    
+
+Just import it directly, such as:
+
+```go
+package main
+
+import (
+	_ "github.com/vvfly/daemon"
+	"log"
+)
+
+func main() {
+	log.Println("server is running")
+}
+```
+
+Then compile the program and use:
+- use daemon
+    `./main --daemon=true`
+- do not use daemon
+    `./main`
